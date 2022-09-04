@@ -71,10 +71,134 @@
                                     Semantic HTML elements are those that <b>clearly describe their meaning in a human- and machine-readable way.</b> Elements such as <code>&lt;table&gt;&lt;/table&gt;</code>,<code>&lt;header&gt;</code>,<code>&lt;footer&gt;</code> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
                                 </div>
                             </div>
-                          </div>
-                      </div>
+                        </div>
+                        <div class="border border-danger border-4 mt-4 py-2">
+                            <h2 class="text-center">Common DOM Related interview questions</h2>
+                            <p class="text-center">(Mileston-6)</p>
+                        </div>
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    What is DOM ?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The Document Object Model (DOM) is a <b>programming interface for web documents.</b> It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    What are the different ways to get an element from DOM?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    From the DOM, users can access HTML elements in five different ways in JavaScript.<br>
+                                    1) Get HTML element by Id.<br>
+                                    2) Get HTML element by className<br>
+                                    3) Get HTML element by Name.<br>
+                                    4) Get HTML element by tagName.<br>
+                                    5) querySelector<br>
+                                    6) querySelectorAll
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    What’s the difference between an Event Handler and an Event Listener??
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event handlers are comprised of an event listener and a callback function. An event listener specifies the type of event that will be detected.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    What does “event bubbling” mean in JavaScript?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy.</p>
+                                    <img class="w-50" src="images/eventbubling.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="headingNine">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    Can you explain the different types of events available in JavaScript?
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Events are actions or occurrences that happen in the system. In the world of programming, HTML events are something that happens to the HTML elements. But when JavaScript is used in HTML pages, it can react to these events.</p>
+                                    onclick	=> The user clicks an HTML element<br>
+                                    onmouseover => The user moves the mouse over an HTML element<br>
+                                    onmouseout =>The user moves the mouse away from an HTML element <br>
+                                    onkeydown => The user pushes a keyboard key <br>
+                                    onkeyup => Triggers when a key is released <br>
+                                    onload => Triggers when the document loads <br>
+                                    onblur => The onblur event is most often used with form validation code (e.g. when the user leaves a form field).<br>
+                                    onfocus => The onfocus event occurs when an element gets focus.The onfocus event is most often used with 'input', 'select', and 'a' tag.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    <p>What's the difference between <b> event.preventDefault()</b> and <b> event.stopPropagation()?</b></p>
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>preventDefault() prevents the browsers default behaviour, but does not stop the event from bubbling up the DOM. The event. stopPropagation() prevents the event from bubbling up the DOM, but does not stop the browsers default behaviour.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
                 </div>
-            </div>
+            </div> 
     </section>>
     </main>
     <!-- Bootstrap Js -->
