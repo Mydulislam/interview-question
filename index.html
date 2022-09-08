@@ -172,6 +172,8 @@
 
                         <div class="border border-danger border-4 mt-4 py-2">
                             <h2 class="text-center">Common ES6 interview questions</h2>
+                            <a href="https://www.javatpoint.com/es6-interview-questions" class="me-5">First visit</a>
+                            <a href="https://www.interviewbit.com/es6-interview-questions/">Second visit</a>
                         </div>
 
 
@@ -309,7 +311,171 @@
                             </div>
                         </div>
 
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading17">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                    <p>What are template literals in ES6?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Template literals are a new feature introduced in ECMAScript 2015/ ES6. It provides an easy way to create multiline strings and perform string interpolation. Template literals are the string literals and allow embedded expressions. Before ES6, template literals were called as template strings.</p><br><br>
+                                    <p><b>N.B</b>Template literals are enclosed by backtick (`) characters instead of double or single quotes.</p>
+                                    <div class="mb-2 mt-2">
+                                        <img src="images/template-string-1.webp" alt="" class="w-100 mb-2">
+                                        <img src="images/template-string-2.webp" alt="" class="w-100">
+                                        <img src="images/template-literals-3.png" alt="" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading18">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                    <p>Tell us the difference between arrow and regular function.in javascript</p>
+                                </button>
+                            </h2>
+                            <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><b>This:</b>Regular function have its their own this context, but the Arrow function don't have their own. Inside an Arrow function this value hold the this value of outer function.
+                                        <img src="images/regularVSarrow-function-1.PNG" alt="" class="w-100">
+                                        In the above example, We can see the greetMessage1(Arrow Functions) don't have its own this, But the greetMessage2(Regular Function) have it's own this due to which we can see the userName value in output.
+                                        </li>
+                                        <li><b>Using new Keywork:</b>Regular function are constructible and callable.As it are constructible, they can be called using the ‘new’ keyword. But the arrow functions are only callable and not constructible. Due to which we will get a run-time error when trying to construct a non-constructible arrow functions using the new keyword.
+                                        <img src="images/regularVSarrow-function-2.PNG" alt="" class="w-100">
+                                        </li>
+                                        <li><b>Implicit return:</b>While working with Regular functions return expression statement is used to return the result from the function. It return statement is not available inside the function then udefined is returned from the function. But with Arrow function there is one exception where return is not mendatory to return result from the functions. See the example below:
+                                        <img src="images/regularVSarrow-function-3.PNG" alt="" class="w-100"><br>
+                                        also visit: <a href="https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/">Difference Regular vs Arrow function</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border border-danger border-4 mt-4 py-2">
+                            <h2 class="text-center">Module-31 (milestone-6)</h2>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading19">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                                    <p>What’s the difference between map, foreach, filter?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse19" class="accordion-collapse collapse" aria-labelledby="heading19" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <img src="images/forEach.PNG" alt="" class="w-100">
+                                    <img src="images/map.PNG" alt="" class="w-100">
+                                    <img src="images/filter.PNG" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading20">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                                    <p>What's the difference between filter and find?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p><b>Find: </b>The find() method returns the first value that matches from the collection. Once it matches the value in findings, it will not check the remaining values in the array collection.</p>
+                                    <p><b>Filter: </b>The filter() method returns the matched values in an array from the collection. It will check all values in the collection and return the matched values in an array.</p>
+                                    <img src="images/find-filter.PNG" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading21">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                                    <p>What is the difference between for..of and for..in?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <img src="images/for-in-and-for-of-loop.PNG" alt="" class="w-100 mb-2">
+                                    <img src="images/for-in-and-for-of-loop-2.PNG" alt="" class="w-100 mb-2">
+                                    <img src="images/for-in-and-for-of-loop-3.PNG" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading22">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                    <p>How do you empty an array?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <img src="images/empty-an-array1.PNG" alt="" class="w-100">
+                                    <img src="images/empty-an-array2.PNG" alt="" class="w-100">
+                                    <img src="images/empty-an-array3.PNG" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- start mileston-7 interview question -->
+
+                        <div class="border border-danger border-4 mt-4 py-2">
+                            <h2 class="text-center">Module-39 (milestone-7)</h2>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="module39">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemodule39" aria-expanded="false" aria-controls="collapsemodule39">
+                                    <p>Tell the difference Between Primitive and Non-Primitive Data Types in JavaScript.</p>
+                                </button>
+                            </h2>
+                            <div id="collapsemodule39" class="accordion-collapse collapse" aria-labelledby="module39" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The Primitive Data types in JavaScript include <b> Number, String, Boolean, Undefined, Null and Symbol.</b> The Non-Primitive data type has only one member i.e. the <b>'Object','Array','RegExp'</b></p><br>
+                                    <p><b>Primitive have value, non-primitives have reference, this is the main difference</b></p>
+                                    <p>Primitive data types are immutable values. and Non primitive is mutable.</p>
+                                    <img src="images/primitiveVSnonPrimitive-1.PNG" alt="" class="w-100">
+                                    <img src="images/data-types-2.jpg" alt="" class="w-100">
+                                    <p>mutuable-object</p>
+                                    <img src="images/mutable-object.PNG" alt="" class="w-100">
+                                    <p>immutable this</p>
+                                    <img src="images/immutable.jpg" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview2">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse2" aria-expanded="false" aria-controls="interviewcollapse2">
+                                    <p>What are the Truthy and Falsy values? Give me some examples.</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse2" class="accordion-collapse collapse" aria-labelledby="interview2" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Truthy values are values that evaluate to True in a boolean context. <br>Falsy values are values that evaluate to False in a boolean context.</p>
+                                    <img src="images/truethy-value.PNG" alt="" class="w-100">
+                                    <img src="images/falsy-value-1.PNG" alt="" class="w-100">
+                                    <img src="images/truthy2.webp" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview3">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse3" aria-expanded="false" aria-controls="interviewcollapse3">
+                                    <p>What is the difference between null and undefined?</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse3" class="accordion-collapse collapse" aria-labelledby="interview3" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p><b>undefined is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything.</b><br> null is a variable that is defined but is missing a value.</p><br>
+                                    <p>undefined means a variable has been declared but has not yet been assigned a value:<br><b>null is an assignment value. It can be assigned to a variable as a representation of no value:</b></p>
+                                    <img src="images/null-vs-undefined-1.png" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
 
 
 
