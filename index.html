@@ -14,7 +14,6 @@
 </head>
 <body>
     <!-- Main part -->
-    <button id="btn">Click</button>
     <main class="container">
     <!--*************************** Frequently Asked Question ********************************-->
     <section class="mt-5">
@@ -474,6 +473,140 @@
                                     <p><b>undefined is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything.</b><br> null is a variable that is defined but is missing a value.</p><br>
                                     <p>undefined means a variable has been declared but has not yet been assigned a value:<br><b>null is an assignment value. It can be assigned to a variable as a representation of no value:</b></p>
                                     <img src="images/null-vs-undefined-1.png" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview4">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse4" aria-expanded="false" aria-controls="interviewcollapse4">
+                                    <p>What are the differences between double equal (==) and triple equal (===)?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse4" class="accordion-collapse collapse" aria-labelledby="interview4" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The main difference between the == and === operator in javascript is that <b>the == operator does the type conversion of the operands before comparison, whereas the === operator compares the values as well as the data types of the operands.</b></p><br>
+                                    <p><b>the triple equals, === , is what's called a strict equality operator while the double equals is an equality operator.</b></p><br>
+                                    <p>Double Equals ( == ) checks for value equality only. It inherently does type coercion.<b>Triple Equals ( === ) does not perform type coercion</b></p><br>
+                                    <p>= is used for assigning values to a variable in JavaScript. == is used for comparison between two variables irrespective of the datatype of variable. === is used for comparision between two variables but this will check strict type, which means it will check datatype and compare two values</p>
+                                    <img src="images/(== vs ===)1.PNG" alt="" class="w-100">
+                                    <img src="images/(== vs ===)2.PNG" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview5">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse5" aria-expanded="false" aria-controls="interviewcollapse5">
+                                    <p>What is scope in JavaScript?</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse5" class="accordion-collapse collapse" aria-labelledby="interview5" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Scope determines the accessibility (visibility) of variables. or Scope refers to the part of a program where we can access a variable.</p><br>
+                                    <p>JavaScript has 3 types of scope:
+                                        <ul>
+                                            <li>Block Scope</li>
+                                            <li>Function  Scope</li>
+                                            <li>Global Scope</li>
+                                        </ul>
+                                    </p>
+                                    <img src="images/scope-example-1.PNG" alt="" class="w-100">
+                                    <img src="images/scope-example-2.PNG" alt="" class="w-100">
+                                    <img src="images/scope-example-3.PNG" alt="" class="w-100">
+                                    <img src="images/scope-example-4.PNG" alt="" class="w-100">
+                                    <a href="https://www.w3schools.com/js/js_scope.asp#:~:text=JavaScript%20has%203%20types%20of,Global%20scope">Also Read scope in javascript w3school</a><br>
+                                    <a href="https://www.freecodecamp.org/news/scope-and-closures-in-javascript/">Also Read scope in javascript Free code camp</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview6">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse6" aria-expanded="false" aria-controls="interviewcollapse6">
+                                    <p>Define block scope and global scope.</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse6" class="accordion-collapse collapse" aria-labelledby="interview6" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <img src="images/scope-1.jpeg" alt="" class="w-100">
+                                    <a href="https://www.w3schools.com/js/js_scope.asp#:~:text=JavaScript%20has%203%20types%20of,Global%20scope">Also Read scope in javascript w3school</a><br>
+                                    <a href="https://www.freecodecamp.org/news/scope-and-closures-in-javascript/">Also Read scope in javascript Free code camp</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview7">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse7" aria-expanded="false" aria-controls="interviewcollapse7">
+                                    <p>What is hoisting in JavaScript?</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse7" class="accordion-collapse collapse" aria-labelledby="interview7" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>In JavaScript, Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution.</p><br>
+                                    <p>JavaScript hoisting occurs during the creation phase of the execution context that moves the variable and function declarations to the top of the script.</p>
+                                    <img src="images/hoisting1.jpg" alt="" class="w-100">
+                                    <a href="https://www.w3schools.com/js/js_hoisting.asp">Also Read Hoisting in javascript w3school</a><br>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting">Also Read hoisting in javascript MDN Docs</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview8">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse8" aria-expanded="false" aria-controls="interviewcollapse8">
+                                    <p>How to use the JavaScript callback function?</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse8" class="accordion-collapse collapse" aria-labelledby="interview8" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p><b>A callback is a function passed as an argument to another function</b></p><br>
+                                    <p>A JavaScript callback is a function which is to be executed after another function has finished execution. A more formal definition would be - Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function or <b>In JavaScript, the way to create a callback function is to pass it as a parameter to another function.</b></p>  
+                                    <img src="images/callback-function-1.PNG" alt="" class="w-100">
+                                    <img src="images/callback-function-2.PNG" alt="" class="w-100">
+                                    <img src="images/callback-function-3.PNG" alt="" class="w-100">
+                                    <a href="https://www.w3schools.com/js/js_callback.asp" target="_blank">Also Read w3school</a><br>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/Callback_function" target="_blank">Also Read MDN Docs</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview9">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse9" aria-expanded="false" aria-controls="interviewcollapse9">
+                                    <p>Explain closure in JavaScript</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse9" class="accordion-collapse collapse" aria-labelledby="interview9" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>A closure is a function that accesses variables “outside” itself, in another function's scope, even after the parent function has closed. A closure is able to do this because of a saved reference to the lexical environment it was initially defined in. <b>A closure is a function having access to the parent scope, even after the parent function has closed.</b></p>  
+                                    <img src="images/closure-1.PNG" alt="" class="w-100">
+                                    <img src="images/closure-2.PNG" alt="" class="w-100">
+                                    <img src="images/closure-3.png" alt="" class="w-100">
+                                    <a href="https://www.w3schools.com/js/js_function_closures.asp" target="_blank">Also Read w3school</a><br>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" target="_blank">Also Read MDN Docs</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="interview10">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#interviewcollapse10" aria-expanded="false" aria-controls="interviewcollapse10">
+                                    <p>Explain passed by value and passed by reference.</p>
+                                </button>
+                            </h2>
+                            <div id="interviewcollapse10" class="accordion-collapse collapse" aria-labelledby="interview10" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p><b>In pass by value in JavaScript, a copy of the original variable is created so any changes made to the copied variable do not affect the original variable. In pass by reference in JavaScript, we pass the reference of the actual parameter. No copy is created in the memory.</b></p><br>
+                                    <p><b>N.B: Primitive Data: Pass by value(string,boolean,number)</b></p><br>  
+                                    <p><b>N.B: Non Primitive Data: Pass by Reference(array,object)</b></p>  
+                                    <img src="images/pass-by-value-pass-by-refference-.png" alt="" class="w-100">
+                                    <img src="images/pass-by-value-pass-by-refference-2.png" alt="" class="w-100">
+                                    <img src="images/passByValue.PNG" alt="" class="w-100">
+                                    <img src="images/passByReference.PNG" alt="" class="w-100">
+                                    <a href="https://www.geeksforgeeks.org/pass-by-value-and-pass-by-reference-in-javascript/" target="_blank">Also Read MDN Docs</a>
                                 </div>
                             </div>
                         </div>
