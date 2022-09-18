@@ -486,7 +486,7 @@
                         <div class="accordion-item border rounded">
                             <h2 class="accordion-header" id="heading27">
                                 <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse27" aria-expanded="false" aria-controls="collapse27">
-                                    <p>What do you mean by dot notation and bracket notation?</p>
+                                    <p>What do you mean by dot notation and bracket notation? When should you use dot notation or bracket notation?</p>
                                 </button>
                             </h2>
                             <div id="collapse27" class="accordion-collapse collapse" aria-labelledby="heading27" data-bs-parent="#accordionExample">
@@ -500,6 +500,234 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="border border-danger border-4 mt-4 py-2">
+                            <h2 class="text-center">Module-32 (milestone-6)</h2>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading28">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse28" aria-expanded="false" aria-controls="collapse28">
+                                    <p>What is an api?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse28" class="accordion-collapse collapse" aria-labelledby="heading28" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>api(Application Programming Interfaces)হচ্ছে এমন একটা পদ্ধতি বা এমন একটা কৌশল যে কৌশলে অন্য কোন প্লাটফর্ম থেকে ডেটাকে বা  ফিচারকে বা সুযোগ সুবিধাকে লোড করে নিয়ে এসে নিজেদের সফট্ওয়ারে বা নিজেদের প্লাটফর্মে ব্যবহার করতে পারি। মুলত এই পদ্ধতিটিই হলো api.</p>
+                                    <p>
+                                        কিছু api সমুহ হলো:
+                                         <ul>
+                                            <li>Web API</li>
+                                            <li>Browser API</li>
+                                            <li>ThirtParty API</li>
+                                         </ul>
+                                    </p>
+                                    <p>
+                                        some thirty party APIs. Please search in google
+                                        <ul>
+                                            <li>json placeholder api</li>
+                                            <li>random user api</li>
+                                            <li>Rest country api</li>
+                                            <li>the meal db api</li>
+                                            <li>the sportsDb api</li>
+                                            <li>programming hero(phone hunter api)
+                                                Phone Search
+                                                URL Format: https://openapi.programming-hero.com/api/phones?search=${searchText}
+                                            
+                                                Example: https://openapi.programming-hero.com/api/phones?search=iphone
+                                            
+                                                Phone detail url:
+                                                URL Format: https://openapi.programming-hero.com/api/phone/${id}
+                                            
+                                                Example: https://openapi.programming-hero.com/api/phone/apple_iphone_13_pro_max-11089</li>
+                                                <li>https://openapi.programming-hero.com/api/course/curriculum</li>
+                                                <li>weather api</li>
+                                                <li>newsAPI</li>
+                                        </ul>
+                                    </p>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction" target="_blank">APIs MDN</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading29">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse29" aria-expanded="false" aria-controls="collapse29">
+                                    <p>What are the HTTP methods supported by REST?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse29" class="accordion-collapse collapse" aria-labelledby="heading29" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The primary or most-commonly-used HTTP verbs (or methods, as they are properly called) are POST, GET, PUT, PATCH, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively.</p>
+                                    <a href="https://www.w3schools.in/restful-web-services/rest-methods" target="_blank">HTTP METHOD1</a> <br>
+                                    <a href="https://www.restapitutorial.com/lessons/httpmethods.html" target="_blank">HTTP METHOE2</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading30">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse30" aria-expanded="false" aria-controls="collapse30">
+                                    <p>Mention whether you can use GET request instead of PUT to create a resource?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse30" class="accordion-collapse collapse" aria-labelledby="heading30" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, you are not supposed to use PUT for GET. GET operations should only have view rights, while PUT resource is used for updating a data.</p>
+                                    <img src="images/restAPi.png" alt="" class="100">
+                                    <a href="https://www.guru99.com/rest-api-interview-question-answers.html" target="_blank">15 REST API interview question</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading31">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse31" aria-expanded="false" aria-controls="collapse31">
+                                    <p>what is the deffenence between PUT and POST ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse31" class="accordion-collapse collapse" aria-labelledby="heading31" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The difference between POST and PUT is that PUT requests are idempotent. That is, calling the same PUT request multiple times will always produce the same result. In contrast, calling a POST request repeatedly have side effects of creating the same resource multiple times.</p>
+                                    <img src="images/PUTvsPOST1.jpg" class="w-100"/>
+                                    <img src="images/PUTvsPOST2.jpg" class="w-100"/>
+                                    <a href="https://www.guru99.com/put-vs-post.html" target="_blank">PUTvsPOST</a> <br>
+                                    <a href="https://stackoverflow.com/questions/630453/what-is-the-difference-between-post-and-put-in-http" target="_blank">PUTvsPOST stackoverflow</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading32">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse32" aria-expanded="false" aria-controls="collapse32">
+                                    <p>What is JSON?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse32" class="accordion-collapse collapse" aria-labelledby="heading32" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).</p>
+                                    <img src="images/JSON-1.PNG" class="w-100"/>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON" target="_blank">JSON MDN</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading33">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse33" aria-expanded="false" aria-controls="collapse33">
+                                    <p>What are CRUD operation?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse33" class="accordion-collapse collapse" aria-labelledby="heading33" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>CRUD is a type of mechanism that allows you to create data, read data, edit it, and delete those data.</p>
+                                    <a href="https://www.freecodecamp.org/news/learn-crud-operations-in-javascript-by-building-todo-app/" target="_blank">FreeCodeCamp CRUD</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading34">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse34" aria-expanded="false" aria-controls="collapse34">
+                                    <p>what is the file extension of JSON?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse34" class="accordion-collapse collapse" aria-labelledby="heading34" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>JSON is a language-independent data format. It was derived from JavaScript, but many modern programming languages include code to generate and parse JSON-format data. JSON filenames use the extension <b>.json </b>.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading35">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse35" aria-expanded="false" aria-controls="collapse35">
+                                    <p>what are the data types of Supported by JSON?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse35" class="accordion-collapse collapse" aria-labelledby="heading35" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>JSON supports a value of type String, Number and Boolean. It does not support octal and hexdecimal values.</p>
+                                    <p>Valid data type of JSON
+                                        <ul>
+                                            <li>a string</li>
+                                            <li>a number</li>
+                                            <li>an object (JSON object)</li>
+                                            <li>an array</li>
+                                            <li>a boolean</li>
+                                            <li>null</li>
+                                        </ul>
+                                    </p>
+                                    <img src="" class="w-100"/>
+                                    <a href="https://www.w3schools.com/js/js_json_datatypes.asp" target="_blank">JSON data types</a> <br>
+                                    <a href="https://www.geeksforgeeks.org/json-data-types/" target="_blank">JSON data types geeksforgeeks</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading36">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse36" aria-expanded="false" aria-controls="collapse36">
+                                    <p>what is the role of JSON.Stringify( )</p>
+                                </button>
+                            </h2>
+                            <div id="collapse36" class="accordion-collapse collapse" aria-labelledby="heading36" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The JSON.stringify() method converts a JavaScript value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.</p>
+                                    <img src="images/JSONstringify-1.png" class="w-100"/>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify" target="_blank">JSON Stringify MDN</a> <br>
+                                    <a href="https://www.geeksforgeeks.org/javascript-json-stringify-method/" target="_blank">Json stringify geeksforgeeks</a><br>
+                                    <a href="https://www.freecodecamp.org/news/json-stringify-example-how-to-parse-a-json-object-with-javascript/" target="_blank">Json stringify Free code camp</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading37">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse37" aria-expanded="false" aria-controls="collapse37">
+                                    <p>show how to parse a JSON ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapse37" class="accordion-collapse collapse" aria-labelledby="heading37" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The JSON.parse() method parses a JSON string, constructing the JavaScript value or object described by the string. An optional reviver function can be provided to perform a transformation on the resulting object before it is returned.</p>
+                                    <img src="images/JSON parse.PNG" class="w-100"/>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse" target="_blank">JSON parse() MDN</a> <br>
+                                    <a href="https://www.geeksforgeeks.org/javascript-json-parse-method/#:~:text=The%20JSON.,and%20return%20a%20JavaScript%20object.&text=Parameters%3A%20This%20method%20accepts%20two,is%20written%20in%20JSON%20format." target="_blank">JSON parse() geeksforgeeks</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading38">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse38" aria-expanded="false" aria-controls="collapse38">
+                                    <p>Difference between GET vs POST.</p>
+                                </button>
+                            </h2>
+                            <div id="collapse38" class="accordion-collapse collapse" aria-labelledby="heading38" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>In GET method, values are visible in the URL. In POST method, values are not visible in the URL. GET has a limitation on the length of the values, generally 255 characters. POST has no limitation on the length of the values since they are submitted via the body of HTTP.</p>
+                                    <img src="images/GETvsPOST-1.png" class="w-100"/>
+                                    <img src="images/GETvsPOST-2.PNG" class="w-100"/>
+                                    <a href="https://www.geeksforgeeks.org/difference-between-http-get-and-post-methods/" target="_blank">GETvsPOST geeksforgeeks</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="accordion-item border rounded">
+                            <h2 class="accordion-header" id="heading30">
+                                <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse30" aria-expanded="false" aria-controls="collapse30">
+                                    <p></p>
+                                </button>
+                            </h2>
+                            <div id="collapse30" class="accordion-collapse collapse" aria-labelledby="heading30" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p></p>
+                                    <img src="" class="w-100"/>
+                                    <a href="" target="_blank"></a> <br>
+                                    <a href="" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div> -->
 
 
                         <!--======================================================================= 
